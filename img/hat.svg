@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<!-- Created with Inkscape (http://www.inkscape.org/) -->  
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/"  
-     xmlns:cc="http://creativecommons.org/ns#"  
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"  
-     xmlns:svg="http://www.w3.org/2000/svg"  
-     xmlns="http://www.w3.org/2000/svg"  
-     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"  
-     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"  
-     viewBox="0 0 600 400"  
-     version="1.1"  
+<!-- Scaled-up Birthday Crown with Decorations and Text -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 1800 1200"
+     version="1.1"
      id="svg2">
   <defs id="defs4" />
   <g id="layer1" transform="translate(0, 0)">
     <!-- Crown base -->
-    <path style="fill:#ff6a9d; fill-opacity:1; stroke:none" 
-          d="M 0,350 L 600,350 L 500,100 L 400,120 L 300,90 L 200,120 L 100,100 Z" />
+    <path style="fill:#ff6a9d; fill-opacity:1; stroke:none"
+          d="M 0,1050 L 1800,1050 L 1500,300 L 1200,360 L 900,270 L 600,360 L 300,300 Z" />
 
     <!-- Crown decorations -->
-    <path style="fill:#fffcc2;" d="M 150,110 L 165,150 L 125,130 L 175,130 L 135,150 Z" />
-    <path style="fill:#fffcc2;" d="M 450,110 L 465,150 L 425,130 L 475,130 L 435,150 Z" />
-    <path style="fill:#c7ffc2;" d="M 250,120 L 265,160 L 225,140 L 275,140 L 235,160 Z" />
+    <path style="fill:#fffcc2;" d="M 450,330 L 495,450 L 375,390 L 525,390 L 405,450 Z" />
+    <path style="fill:#fffcc2;" d="M 1350,330 L 1395,450 L 1275,390 L 1425,390 L 1305,450 Z" />
+    <path style="fill:#c7ffc2;" d="M 750,360 L 795,480 L 675,420 L 825,420 L 705,480 Z" />
 
     <!-- Center Gem -->
-    <circle cx="300" cy="100" r="20" style="fill:#ffcc00;" />
+    <circle cx="900" cy="300" r="60" style="fill:#ffcc00;" />
 
     <!-- Additional stars -->
-    <path style="fill:#ffffff;" d="M 80,180 L 90,210 L 60,200 L 100,200 L 70,210 Z" />
-    <path style="fill:#ffffff;" d="M 520,180 L 530,210 L 500,200 L 540,200 L 510,210 Z" />
+    <path style="fill:#ffffff;" d="M 240,540 L 270,630 L 180,600 L 300,600 L 210,630 Z" />
+    <path style="fill:#ffffff;" d="M 1560,540 L 1590,630 L 1500,600 L 1620,600 L 1530,630 Z" />
 
     <!-- Bow decorations -->
-    <text x="120" y="300" font-size="24px" fill="#fff">🎀</text>
-    <text x="460" y="300" font-size="24px" fill="#fff">🎀</text>
+    <text x="360" y="900" font-size="72px" fill="#fff">🎀</text>
+    <text x="1380" y="900" font-size="72px" fill="#fff">🎀</text>
 
     <!-- Text inside crown -->
-    <text x="300" y="260" font-size="28px" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="cursive">
+    <text x="900" y="780" font-size="84px" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="cursive">
       Happy Birthday Saloni
     </text>
   </g>
