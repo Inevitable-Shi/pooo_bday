@@ -1,0 +1,404 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.song {
+  visibility: hidden;
+}
+
+.container {
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  visibility: hidden;
+  width: 100vw;
+}
+
+.container > div {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 20vh;
+}
+
+.one {
+  font-size: 4.5rem;
+}
+
+.two {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.three {
+  font-size: 3rem;
+}
+
+/* WhatsApp Chat Styles - Replaced .four styles */
+.four {
+  width: 380px;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  background: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  top: 20vh;
+}
+
+.chat-header {
+  background-color: #075e54;
+  color: white;
+  padding: 14px 18px;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: left;
+}
+
+.chat-body {
+  flex: 1;
+  background-color: #e5ddd5;
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-bubble {
+  background-color: #dcf8c6;
+  padding: 10px 14px;
+  border-radius: 8px 8px 0 8px;
+  max-width: 80%;
+  font-size: 14px;
+  position: relative;
+  margin-top: 10px;
+  align-self: flex-end;
+  margin-left: auto;
+  opacity: 0;
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+.chat-bubble::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -8px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #dcf8c6;
+  border-right: 10px solid transparent;
+}
+
+.text-box {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+.hbd-chatbox {
+  flex: 1;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+
+.fake-btn {
+  background-color: #25d366;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: bold;
+  user-select: none;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+/* Rest of your existing styles remain unchanged */
+.five p {
+  font-size: 2rem;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.idea-3 strong {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 3px 5px;
+}
+
+.five .idea-5 {
+  font-size: 4rem;
+}
+
+.idea-5 span, .idea-6 span, .wish-hbd span {
+  display: inline-block;
+}
+
+.idea-6 span{
+  font-size: 15rem;
+}
+
+.six {
+  position: relative;
+  top: 10vh;
+  z-index: 1;
+}
+
+.six img {
+  display: inline-block;
+  height: 350px;
+  max-width: 100%;
+}
+
+.six .hat {
+  left: 41.5%;
+  position: absolute;
+  top: -35%;
+  width: 80px;
+}
+
+.baloons img {
+  display: inline-block;
+  position: absolute;
+}
+
+.baloons img:nth-child(even) {
+  left: -10%;
+}
+
+.baloons img:nth-child(odd) {
+  right: -10%;
+}
+
+.baloons img:nth-child(3n + 0) {
+  left: 30%;
+}
+
+.seven, .eight {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.eight svg {
+  left: 0;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 25px;
+  z-index: -1;
+}
+
+.eight svg:nth-child(1) {
+  fill: #bd6ecf;
+  left: 5vw;
+  top: 7vh;
+}
+
+.eight svg:nth-child(2) {
+  fill: #7dd175;
+  left: 35vw;
+  top: 23vh;
+}
+
+.eight svg:nth-child(3) {
+  fill: #349d8b;
+  left: 23vw;
+  top: 33vh;
+}
+
+.eight svg:nth-child(4) {
+  fill: #347a9d;
+  left: 57vw;
+  top: 43vh;
+}
+
+.eight svg:nth-child(5) {
+  fill: #c66053;
+  left: 7vw;
+  top: 68vh;
+}
+
+.eight svg:nth-child(6) {
+  fill: #bfaa40;
+  left: 77vw;
+  top: 42vh;
+}
+
+.eight svg:nth-child(7) {
+  fill: #e3bae8;
+  left: 83vw;
+  top: 68vh;
+}
+
+.eight svg:nth-child(8) {
+  fill: #8762cb;
+  left: 37vw;
+  top: 86vh;
+}
+
+.eight svg:nth-child(9) {
+  fill: #9a90da;
+  left: 87vw;
+  top: 94vh;
+}
+
+.wish-hbd {
+  font-size: 3em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.wish h5 {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 10px 0 0;
+}
+
+.nine p {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+#replay {
+  cursor: pointer;
+  z-index: 3;
+}
+
+/* Media Queries - Updated for chat */
+@media screen and (max-height: 1000px) {
+  .six .hat {
+    left: 40%;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .six .hat {
+    left: 37%;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .six .hat {
+    left: 32%;
+  }
+}
+
+@media screen and (max-height: 850px) and (max-width: 450px) {
+  .six .hat {
+    left: 32%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+
+  .four {
+    width: 90%;
+    height: 500px;
+  }
+
+  .chat-bubble {
+    max-width: 90%;
+  }
+
+  .idea-5 span {
+    display: block;
+  }
+
+  .idea-6 span {
+    font-size: 10rem;
+  }
+
+  .six .hat {
+    width: 50px;
+  }
+
+  .wish-hbd {
+    font-size: 2.2em;
+  }
+
+  .wish h5 {
+    font-size: 1.4rem;
+  }
+
+  .nine p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+}
+
+/* Added creator credit styles */
+/* Updated CSS for creator credit */
+.creator-credit {
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.1rem;
+  font-weight: bold;
+  z-index: 1000;
+  text-align: center;
+  background: rgba(0,0,0,0.6);
+  padding: 8px 20px;
+  border-radius: 25px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  animation: colorPulse 5s infinite alternate;
+}
+
+.creator-credit a {
+  color: #f9ca24; /* Bright yellow */
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  transition: all 0.3s ease;
+}
+
+.creator-credit a:hover {
+  color: #ff7979; /* Pink on hover */
+  text-decoration: underline;
+}
+
+/* Color animation */
+@keyframes colorPulse {
+  0% { background: rgba(142, 68, 173, 0.7); } /* Purple */
+  25% { background: rgba(41, 128, 185, 0.7); } /* Blue */
+  50% { background: rgba(39, 174, 96, 0.7); } /* Green */
+  75% { background: rgba(243, 156, 18, 0.7); } /* Orange */
+  100% { background: rgba(192, 57, 43, 0.7); } /* Red */
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .creator-credit {
+    font-size: 0.9rem;
+    padding: 6px 15px;
+    bottom: 10px;
+    width: 90%;
+    white-space: nowrap;
+  }
+}
