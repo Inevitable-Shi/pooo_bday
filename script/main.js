@@ -228,8 +228,8 @@ const animationTimeline = () => {
         rotationZ: -45,
     }, "-=2")
     .from(".hat", 0.5, {
-        x: -80,
-        y: 300,
+        x: -50,
+        y: 200,
         rotation: -180,
         opacity: 0,
     })
@@ -258,7 +258,7 @@ const animationTimeline = () => {
         visibility: "visible",
         opacity: 0,
         scale: 80,
-        repeat: 3,
+        repeat: 2,
         repeatDelay: .7,
     }, 0.3)
     .to(".six", 0.5, {
