@@ -23,10 +23,10 @@ window.addEventListener('load', () => {
 // Enhanced WhatsApp chat animation with precise timing
 function animateChatMessages() {
     const messages = [
-        "🎉 Happy birthday Saloniii !! Many many happy returns of the day ✨", // ~15 sec
+        "🎉 Happy birthday Poooo !! Many many happy returns of the day ✨", // ~15 sec
         "Wishing you a day filled with love, laughter, and cake 🎂", // ~10 sec
         "May your year be as wonderful as you are 🥳", // ~8 sec
-        "from Shivam... 😅" // ~5 sec
+        "from Mr.None... 😅" // ~5 sec
     ];
 
     const chatBody = document.getElementById('chatBody');
